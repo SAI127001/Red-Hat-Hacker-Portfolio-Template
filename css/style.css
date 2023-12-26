@@ -14,7 +14,7 @@ canvas {
   left: auto;
   background-color: black;
   z-index: 2;
-  background-size:cover;
+  background-size: cover;
   background-blend-mode: multiply;
   background-size: auto;
   scroll-behavior: smooth;
@@ -35,7 +35,6 @@ body {
   font-family: "Poppins", sans-serif;
   z-index: 10;
   background: transparent;
-
 }
 
 body.dark {
@@ -168,9 +167,8 @@ ul {
 
 .btn:hover {
   transform: scale(1.05);
-  box-shadow: 0 0 5px red,
-    0 0 25px red, 0 0 50px red,
-    0 0 100px red, 0 0 200px red;
+  box-shadow: 0 0 5px red, 0 0 25px red, 0 0 50px red, 0 0 100px red,
+    0 0 200px red;
 }
 
 .shadow-dark {
@@ -193,10 +191,9 @@ ul {
   align-items: center;
   transition: all 0.3s ease;
   background-color: #000000;
-  border-right: 2px solid red; 
-  border-top-right-radius: 50px; 
+  border-right: 2px solid red;
+  border-top-right-radius: 50px;
 }
-
 
 .aside .logo {
   position: absolute;
@@ -295,11 +292,11 @@ ul {
   color: var(--text-black-900);
   padding: 5px 15px;
   opacity: 0;
-    animation: slideRight .5s ease forwards;
-    animation-delay: calc(.2s * var(--i));
+  animation: slideRight 0.5s ease forwards;
+  animation-delay: calc(0.2s * var(--i));
 }
 .aside .nav li a::after {
-  content: '';
+  content: "";
   width: 0;
   height: 2px;
   background: rgb(255, 0, 0);
@@ -377,9 +374,8 @@ h3.my-profession {
   position: relative;
   border-radius: 50%;
   opacity: 0;
-  box-shadow: 0 0 10px red,
-    0 0 25px red, 0 0 50px red,
-    0 0 100px red, 0 0 200px red;
+  box-shadow: 0 0 10px red, 0 0 25px red, 0 0 50px red, 0 0 100px red,
+    0 0 200px red;
   animation: zoomIn 1s ease forwards, floatImage 4s ease-in-out infinite;
   animation-delay: 1.1s, 2.1s;
 }
@@ -736,7 +732,6 @@ h3.my-profession {
   color: var(--text-black-700);
 }
 
-
 /* Education End */
 
 /* Contact Start */
@@ -866,7 +861,6 @@ h3.my-profession {
 }
 
 @media (max-width: 990px) {
-
   .contact .contact-info-item,
   .blog .blog-item,
   .experience .experience-item,
@@ -886,7 +880,6 @@ h3.my-profession {
 }
 
 @media (max-width: 760px) {
-
   .contact .contact-form .col-6,
   .contact .contact-info-item,
   .blog .blog-item,
@@ -924,73 +917,73 @@ h3.my-profession {
 /* Animation */
 @keyframes slideTop {
   0% {
-      opacity: 0;
-      transform: translateY(100px);
+    opacity: 0;
+    transform: translateY(100px);
   }
 
   100% {
-      opacity: 1;
-      transform: translateY(0);
-  }    
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 @keyframes slideRight {
   0% {
-      opacity: 0;
-      transform: translateX(-100px);
+    opacity: 0;
+    transform: translateX(-100px);
   }
 
   100% {
-      opacity: 1;
-      transform: translateX(0);
-  }    
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes slideLeft {
   0% {
-      opacity: 0;
-      transform: translateX(100px);
+    opacity: 0;
+    transform: translateX(100px);
   }
 
   100% {
-      opacity: 1;
-      transform: translateX(0);
-  }    
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 @keyframes zoomIn {
   0% {
-      opacity: 0;
-      transform: scale(0);
+    opacity: 0;
+    transform: scale(0);
   }
 
   100% {
-      opacity: 1;
-      transform: scale(1);
+    opacity: 1;
+    transform: scale(1);
   }
 }
 
 @keyframes floatImage {
   0% {
-      transform: translateY(0);
+    transform: translateY(0);
   }
 
   50% {
-      transform: translateY(-24px);
+    transform: translateY(-24px);
   }
 
-  100%{
-      transform: translate(0);
+  100% {
+    transform: translate(0);
   }
 }
 
 @keyframes circleRotate {
   0% {
-      transform: rotate(0);
+    transform: rotate(0);
   }
-  
+
   100% {
-      transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -1002,4 +995,3 @@ h3.my-profession {
     opacity: 1;
   }
 }
-
