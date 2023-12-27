@@ -190,7 +190,7 @@ ul {
   justify-content: center;
   align-items: center;
   transition: all 0.3s ease;
-  background-color: #000000;
+  background-color: #000000ef;
   border-right: 2px solid red;
   border-top-right-radius: 50px;
 }
